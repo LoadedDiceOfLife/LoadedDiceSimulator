@@ -1,0 +1,47 @@
+{
+  "stories": [{
+    "range": "0-14",
+    "fillers": {
+      "1":"{name}'s goldfish Fishita dies.",
+      "2":"{name}'s ultimate frisbee team loses at the regional finals.",
+      "3":"{name} isn't allowed a iPhone. {name}'s life is over.",
+      "4":"{name} gets the meanest teacher at school.",
+      "5":"{name}'s Minecraft world gets destroyed by {name}'s brother."
+    }
+  }, {
+    "range": "15-29",
+    "fillers": {
+      "1": "{name} got dumped.",
+      "2": "{name}'s favourite band break up.",
+      "3": "{name} got a pimple.",
+      "4": "{name} sprains an ankle.",
+      "5": "{name} gets crabs.",
+      "6": "{name} throws up in a taxi and gets fined $300."
+    }
+  }, {
+    "range": "30-44",
+    "fillers": {
+      "1": "Someone outbids {name} on their dream home.",
+      "2": "{name}'s washing machine floods.",
+      "3": "{name}'s roses get aphids.",
+      "4": "{name}'s child makes fun of {name} for using Twitter wrong.",
+      "5": "{name}'s hangovers are much worse these days."
+    }
+  }, {
+    "range": "45-64",
+    "fillers": {
+      "1": "{name} buys a new car and crashes it.",
+      "2": "{name}'s hair goes grey.",
+      "3": "{name}'s favourite slippers fall apart.",
+      "4": "{name}'s cat is incontinent."
+    }
+  }, {
+    "range": "65+",
+    "fillers": {
+      "1": "The dog ate {name}'s 50th wedding anniversary cake.",
+      "2": "{name}'s children expect {name} to be a free babysitter.",
+      "3": "{name}'s daughter starts threatening {name} with a retirement home.",
+      "4": "{name}'s new neighbours have noisy parties."
+    }
+  }]
+}
