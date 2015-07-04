@@ -7,5 +7,25 @@ body {
 }
 
 @media (max-width: 35.5em) {
+.responsive {
+	padding-top: 1em !important;
+}
 
+.right{
+      float: right;
+}
+
+.no-margin{
+	margin: 0;
+}
+
+.small{
+	height: 200px;
+}
+
+.right-offset
+{
+	margin-left: 16.66%;
+      *margin-left: 16.655%;
+}
 }
