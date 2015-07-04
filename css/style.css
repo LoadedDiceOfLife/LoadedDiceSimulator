@@ -2,6 +2,34 @@ body {
 	background-color: #F7F4F0;
 }
 
+#section-1 {
+  background-image: url('/assets/images/wellington_at_dawn.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.7;
+  filter: alpha(opacity = 40); /* For IE */
+}
+
+.select-area {
+  height: 4rem;
+  width: 100%;
+  padding: 0rem 2rem;
+  font-size: 1.5rem;
+}
+
+.section-title {
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #ffffff;
+}
+
+.button-start {
+  height: 3rem;
+}
+
 .center {
 	margin: 0 auto;
 }
@@ -11,8 +39,12 @@ body {
 	padding-top: 1em !important;
 }
 
-.right{
+.res-right{
       float: right;
+}
+
+.res-left{
+	float: left;
 }
 
 .no-margin{
@@ -29,3 +61,4 @@ body {
       *margin-left: 16.655%;
 }
 }
+

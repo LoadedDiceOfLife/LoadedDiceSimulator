@@ -4,7 +4,6 @@
 <head>
     <title>Loaded Dice - simulate a life story and understand inequality</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <!--[if lte IE 8]>
 	    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
@@ -12,50 +11,57 @@
     <!--[if gt IE 8]><!-->
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
     <!--<![endif]-->
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
     <script type="text/javascript" src="build/bundle.js" charset="utf-8"></script>
-
 </head>
 
 <body>
     <div id="fullPage">
+        <section class="section" id="section-1">
+            <h1 class="section-title">Playing field</h1>
+            <div class="pure-g">
+                <div class="pure-u pure-u-md-1-4 offset-md-1-6">
+                    <select class="select-area">
+                        <option value='default' disabled selected>Pick an area</option>
+                    </select>
+                </div>
+                <div class="pure-u pure-u-md-1-4 offset-md-1-6">
+                    <select class="select-area">
+                        <option value='default' disabled selected>Pick an area</option>
+                    </select>
+                </div>
+            </div>
+        </section>
         <section class="section responsive">
             <div class="pure-g">
                 <div class="pure-u-5-6  pure-u-sm-1-3 pure-u-md-1-4 offset-sm-1-8 offset-md-1-6">
-                        <img class="pure-img center small no-margin" src="/Assests/Images/1-y.png">
+                    <img class="pure-img center small no-margin res-left" src="/assets/images/1-y.png">
+                    <h1>Sal</h1>
+                    <p>Thinks dinosaurs are probably still around.</p>
                 </div>
                 <div class="pure-u-5-6 pure-u-sm-1-3 pure-u-md-1-4 offset-sm-1-12 offset-md-1-6 right-offset">
-                        <img class="pure-img center small right no-margin" src="/Assests/Images/2-y.png">
+                    <img class="pure-img center small no-margin res-right" src="/assets/images/2-y.png">
+                    <h1>Alex</h1>
+                    <p>Loves giraffes.</p>
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="section responsive">
             <div class="pure-g">
-                <div class="pure-u-1-1  pure-u-sm-1-3 pure-u-md-1-4 offset-sm-1-8 offset-md-1-6">
-                        <img class="pure-img center" src="/Assests/Images/1-h.png">
+                <div class="pure-u-5-6  pure-u-sm-1-3 pure-u-md-1-4 offset-sm-1-8 offset-md-1-6">
+                    <img class="pure-img center small no-margin res-left" src="/assets/images/1-y.png">
+                    <h1>Sal</h1>
+                    <p>Thinks dinosaurs are probably still around.</p>
                 </div>
-                <div class="pure-u-1-1 pure-u-sm-1-3 pure-u-md-1-4 offset-sm-1-12 offset-md-1-6">
-                        <img class="pure-img center" src="/Assests/Images/2-s.png">
-                </div>
-            </div>
-        </section>
-        <section class="section">
-            <div class="pure-g">
-                <div class="pure-u-1-1  pure-u-sm-1-3 pure-u-md-1-4 offset-sm-1-8 offset-md-1-6">
-                        <img class="pure-img center" src="/Assests/Images/1-s.png">
-                </div>
-                <div class="pure-u-1-1 pure-u-sm-1-3 pure-u-md-1-4 offset-sm-1-12 offset-md-1-6">
-                        <img class="pure-img center" src="/Assests/Images/2-h.png">
+                <div class="pure-u-5-6 pure-u-sm-1-3 pure-u-md-1-4 offset-sm-1-12 offset-md-1-6 right-offset">
+                    <img class="pure-img center small no-margin res-right" src="/assets/images/2-y.png">
+                    <h1>Alex</h1>
+                    <p>Loves giraffes.</p>
                 </div>
             </div>
         </section>
-        <section class="section"></section>
-        <section class="section"></section>
-        <section class="section"></section>
-        <section class="section"></section>
     </div>
 </body>
 

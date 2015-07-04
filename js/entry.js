@@ -52,4 +52,24 @@ $(function() {
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {},
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {}
     });
+
+    $(document).ready(function() {
+        // TODO: implement the real GET function to retrieve areas
+        var response = {
+            "areas": [{
+                "code":  1,
+                "name": "Wellington"
+            }, {
+                "code":  2,
+                "name": "Whanganui"
+            }, {
+                "code":  3,
+                "name": "Hamilton"
+            }, ]
+        };
+        response.areas.forEach(function(area) {
+            console.log(area)
+            $(".select-area").append('<option value=' + area.code + '>' + area.name + '</option>');
+        });
+    });
 });
