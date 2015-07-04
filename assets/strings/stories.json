@@ -2,49 +2,49 @@
   "stories": [{
     "range": "0-14",
     "fillers": {
-      "1":"{name}'s goldfish Fishita dies.",
-      "2":"{name}'s ultimate frisbee team loses at the regional finals.",
-      "3":"{name} isn't allowed a iPhone. Life is over.",
-      "4":"{name} gets the meanest teacher at school.",
-      "5":"{name}'s Minecraft world gets destroyed by Kikoolol17."
+      "1":"'s goldfish Fishita dies.",
+      "2":"'s ultimate frisbee team loses at the regional finals.",
+      "3":" isn't allowed a iPhone. Life is over.",
+      "4":" gets the meanest teacher at school.",
+      "5":"'s Minecraft world gets destroyed by Kikoolol17."
     }
   }, {
     "range": "15-29",
     "fillers": {
-      "1": "{name} got dumped.",
-      "2": "{name}'s favourite band break up.",
-      "3": "{name} got a pimple.",
-      "4": "{name} sprains an ankle.",
-      "5": "{name} gets crabs.",
-      "6": "{name} throws up in a taxi and gets fined $300."
+      "1": " got dumped.",
+      "2": "'s favourite band break up.",
+      "3": " got a pimple.",
+      "4": " sprains an ankle.",
+      "5": " gets crabs.",
+      "6": " throws up in a taxi and gets fined $300."
     }
   }, {
     "range": "30-44",
     "fillers": {
-      "1": "{name}'s home suffered a cockroaches invasion.",
-      "2": "{name}'s washing machine floods.",
-      "3": "{name}'s roses get aphids.",
-      "4": "{name}'s child makes fun of them for using Twitter wrong.",
-      "5": "{name}'s hangovers are much worse these days."
+      "1": "'s home suffered a cockroaches invasion.",
+      "2": "'s washing machine floods.",
+      "3": "'s roses get aphids.",
+      "4": "'s child makes fun of them for using Twitter wrong.",
+      "5": "'s hangovers are much worse these days."
     }
   }, {
     "range": "45-64",
     "fillers": {
-      "1": "{name} buys a new car and crashes it.",
-      "2": "{name}'s hair goes grey.",
-      "3": "{name}'s favourite slippers fall apart.",
-      "4": "{name}'s cat is incontinent.",
-      "5": "{name} learnt that Justin Bieber is the new vintage."
+      "1": " buys a new car and crashes it.",
+      "2": "'s hair goes grey.",
+      "3": "'s favourite slippers fall apart.",
+      "4": "'s cat is incontinent.",
+      "5": " learnt that Justin Bieber is the new vintage."
     }
   }, {
     "range": "65+",
     "fillers": {
-      "1": "{name}'s 50th wedding anniversary cake eaten by the dog.",
-      "2": "{name} became an official free babysitter for grandchildren.",
-      "3": "{name}'s threatened by daughter with a retirement home.",
-      "4": "{name}'s new neighbours have noisy parties.",
-      "5": "{name}'s grandchildren ask for bitcoins at Christmas.",
-      "6": "{name} got scammed."
+      "1": "'s 50th wedding anniversary cake eaten by the dog.",
+      "2": " became an official free babysitter for grandchildren.",
+      "3": "'s threatened by daughter with a retirement home.",
+      "4": "'s new neighbours have noisy parties.",
+      "5": "'s grandchildren ask for bitcoins at Christmas.",
+      "6": " got scammed."
     }
   }]
 }
