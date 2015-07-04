@@ -14,6 +14,8 @@ module.exports = {
     },
     plugins: [
         new BowerWebpackPlugin(),
-        new webpack.ProvidePlugin()
+        new webpack.ProvidePlugin({
+          _: "underscore"
+        })
     ]
 };

@@ -1,5 +1,7 @@
 require("../css/style.css");
-require("../css/pure-offset.css")
+require("../css/pure-offset.css");
+
+require("underscore");
 
 $(function() {
     $('#fullPage').fullpage({
