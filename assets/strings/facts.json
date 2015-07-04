@@ -1,0 +1,36 @@
+{
+  "events": [{
+      "title": "Unemployed",
+      "description": " lives in a house where no one has a job.",
+      "image": ""
+    },{
+      "title": "Finishes school",
+      "description": " leaves high school with no plans of going to uni.",
+      "image": ""
+    },{
+      "title": "Renting",
+      "description": " doesn't own the house they live in, and the landlord has bad breath.",
+      "image": ""
+    },{
+      "title": "No internet at home",
+      "description": "'s days are long and the nights are longer without Youtube at home.",
+      "image": ""
+    },{
+      "title": "Alone again",
+      "description": " gets a divorce, and has to move out of their house.",
+      "image": ""
+    },{
+      "title": "Sucked into smoking",
+      "description": " starts smoking, and doesn't stop.",
+      "image": ""
+    },{
+      "title": "Scraping by",
+      "description": " lives in a house where the income is below x a year.",
+      "image": ""
+    },{
+      "title": "Foot patrol",
+      "description": " doesn't have a car, and the buses are always late.",
+      "image": ""
+    }]
+
+}
