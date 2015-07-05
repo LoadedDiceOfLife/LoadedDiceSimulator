@@ -5,30 +5,20 @@ require("underscore");
 
 $(function() {
     $('#fullPage').fullpage({
-        //Navigation
-        menu: false,
-        lockAnchors: false,
-        showActiveTooltip: false,
 
         //Scrolling
         css3: true,
         scrollingSpeed: 900,
-        autoScrolling: true,
-        fitToSection: true,
-        scrollBar: false,
         easing: 'easeInOutCubic',
         easingcss3: 'ease',
-        loopBottom: false,
-        loopTop: false,
-        continuousVertical: false,
         normalScrollElements: '.log',
+        setAllowScrolling: true,
         scrollOverflow: false,
         touchSensitivity: 15,
         normalScrollElementTouchThreshold: 5,
 
         //Accessibility
         keyboardScrolling: true,
-        recordHistory: true,
 
         //Design
         controlArrows: true,
