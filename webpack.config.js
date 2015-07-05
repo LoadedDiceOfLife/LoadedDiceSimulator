@@ -1,3 +1,6 @@
+var webpack = require("webpack");
+var BowerWebpackPlugin = require("bower-webpack-plugin");
+
 module.exports = {
     entry: "./js/entry.js",
     output: {
@@ -8,5 +11,11 @@ module.exports = {
         loaders: [
             { test: /\.css$/, loader: "style!css" }
         ]
-    }
+    },
+    plugins: [
+        new BowerWebpackPlugin(),
+        new webpack.ProvidePlugin({
+          _: "underscore"
+        })
+    ]
 };
