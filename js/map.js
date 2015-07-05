@@ -1,4 +1,5 @@
 var target = "#selectA";
+
 var init_map  = function() {
     $("#continue_button").hide();
 
@@ -15,11 +16,18 @@ var init_map  = function() {
         $.getJSON(url, function(data){
             // TODO: Do some amazing stuff with the data
             console.log(data);
-        })
+            var count = 1;
+            (data.profiles).forEach(function (profile) {
+                var edu = profile['age-1'].events.education
+                console.log(edu)
+                $('.class-age'+ count).html(edu);
+                count++
+            });
+        });
     });
 
     var map = L.map('map', {
-        scrollWheelZoom: false,
+        scrollWheelZoom: true,
         touchZoom: false,
         doubleClickZoom: false,
         zoomControl:false
@@ -42,27 +50,27 @@ var init_map  = function() {
     var getDIColour = function (feature) {
         switch (feature.properties.DI) {
             case 0:
-                return "#ffffff";
+                return "#607089";
             case 10:
-                return "#7F0238";
+                return "#FCA6A2";
             case 9:
-                return "#7F294E";
+                return "#FE915A";
             case 8:
-                return "#CC417D";
+                return "#FFD28E";
             case 7:
-                return "#FF519C";
+                return "#F4EE84";
             case 6:
-                return "#FF9EC8";
+                return "#3AB98E";
             case 5:
-                return "#9EC4FF";
+                return "#26BFBF";
             case 4:
                 return "#5196FF";
             case 3:
-                return "#4178CC";
+                return "#41BBDC";
             case 2:
-                return "#294B7F";
+                return "#4077B2";
             case 1:
-                return "#00327F";
+                return "#8A98B4";
         }
     }
 
