@@ -10,9 +10,10 @@ var init_map  = function() {
 
         var selectA_code = $("#popup-selectA").attr('class').split('-')[1];
         var selectB_code = $("#popup-selectB").attr('class').split('-')[1];
-        var url = "http://c3e55f9d.ngrok.io/profiles?locations[]"+selectA_code+"&locations[]"+selectB_code;
+        var url = "http://c3e55f9d.ngrok.io/profiles?locations[]="+selectA_code+"&locations[]="+selectB_code;
         console.log(url)
         $.getJSON(url, function(data){
+            // TODO: Do some amazing stuff with the data
             console.log(data);
         })
     });
