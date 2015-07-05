@@ -1,5 +1,5 @@
 body {
-	background-color: #F7F4F0;
+  background-color: #F7F4F0;
 }
 /*
 #section-1 {
@@ -26,45 +26,40 @@ body {
   color: #ffffff;
 }
 
-.button-start {
-  height: 3rem;
-}
-
 .center {
-	margin: 0 auto;
+  margin: 0 auto;
 }
 
 @media (max-width: 35.5em) {
-.responsive {
-	padding-top: 1em !important;
-}
+  .responsive {
+    padding-top: 1em !important;
+  }
 
-.res-right{
-      float: right;
-}
+  .res-right{
+    float: right;
+  }
 
-.res-left{
-	float: left;
-}
+  .res-left {
+    float: left;
+  }
 
-.no-margin{
-	margin: 0;
-}
+  .no-margin {
+    margin: 0;
+  }
 
-.small{
-	height: 200px;
-	margin: 0 5%;
-}
+  .small {
+    height: 200px;
+    margin: 0 5%;
+  }
 
-.text-right{
+  .text-right {
     text-align: right;
-}
+  }
 
-.right-offset
-{
-	margin-left: 16.66%;
-      *margin-left: 16.655%;
-}
+  .right-offset {
+    margin-left: 16.66%;
+    *margin-left: 16.655%;
+  }
 }
 
 div.leaflet-control-attribution {
@@ -79,4 +74,5 @@ div.leaflet-control-attribution {
     margin-left: -50px;
     background-color: #ffffff;
     z-index: 2000;
+
 }
