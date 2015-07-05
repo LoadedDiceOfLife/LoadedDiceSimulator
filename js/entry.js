@@ -7,7 +7,7 @@ require("./map.js");
 $(function() {
     $('#fullPage').fullpage({
         anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
-        sectionsColor: ['#F5F4F0', '#F7DAB6', '#F2A649', '#EF8E59'],
+        sectionsColor: ['#F5F4F0', '#EF8E59', '#F2A649', '#F7DAB6'],
         scrollOverflow: true,
         paddingTop: '1em'
     });
