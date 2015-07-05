@@ -2,7 +2,7 @@ body {
 	background-color: #F7F4F0;
 }
 
-#section-1 {
+#section1 {
   background-image: url('/assets/images/wellington_at_dawn.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;

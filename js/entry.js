@@ -1,39 +1,13 @@
 require("../css/style.css");
 require("../css/pure-offset.css");
-
+require("./lib/jquery.slimscroll.min.js");
 require("underscore");
 
 $(function() {
     $('#fullPage').fullpage({
-
-        //Scrolling
-        css3: true,
-        scrollingSpeed: 900,
-        easing: 'easeInOutCubic',
-        easingcss3: 'ease',
-        normalScrollElements: '.log',
-        setAllowScrolling: true,
-        scrollOverflow: false,
-        touchSensitivity: 15,
-        normalScrollElementTouchThreshold: 5,
-
-        //Accessibility
-        keyboardScrolling: true,
-
-        //Design
-        controlArrows: true,
-        verticalCentered: true,
-        resize: false,
-        sectionsColor: ['#ccc', '#fff'],
-        paddingTop: '3em',
-        paddingBottom: '10px',
-        fixedElements: '#header, .footer',
-        responsiveWidth: 0,
-        responsiveHeight: 0,
-
-        //Custom selectors
-        sectionSelector: '.section',
-        slideSelector: '.slide',
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+        sectionsColor: ['#4A6FB1', '#939FAA', '#323539'],
+        scrollOverflow: true
     });
 
 function populateLog(log){
