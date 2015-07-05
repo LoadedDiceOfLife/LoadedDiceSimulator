@@ -74,4 +74,13 @@ $(function() {
             $(".select-area").append('<option value=' + area.code + '>' + area.name + '</option>');
         });
     });
+
+
+    $(document).ready(function() {
+        $.getJSON('assets/strings/names.json').then(function(names) {
+            console.log(_.sample(names));
+        });
+        // $('.presentation-name').html = ''
+        // $('.presentation-description').html = ''
+    });
 });
