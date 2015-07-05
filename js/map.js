@@ -21,7 +21,8 @@ var init_map  = function() {
     var map = L.map('map', {
         scrollWheelZoom: false,
         touchZoom: false,
-        doubleClickZoom: false
+        doubleClickZoom: false,
+        zoomControl:false
     });
 
     // center the map
