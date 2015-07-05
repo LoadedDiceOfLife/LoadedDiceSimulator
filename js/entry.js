@@ -14,7 +14,6 @@ function populateLog(log){
     $(log).append()
 }
 
-
     $(document).ready(function() {
         // TODO: implement the real GET function to retrieve areas
         var response = {
