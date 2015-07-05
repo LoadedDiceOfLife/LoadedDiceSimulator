@@ -2,6 +2,7 @@
 
 ##Install
 npm install
+bower install
 
 ##Transpile
 webpack
