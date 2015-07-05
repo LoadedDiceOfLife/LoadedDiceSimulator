@@ -1,5 +1,5 @@
 body {
-	background-color: #F7F4F0;
+  background-color: #F7F4F0;
 }
 
 #section1 {
@@ -10,10 +10,23 @@ body {
   background-size: cover;
   opacity: 0.7;
   filter: alpha(opacity = 40); /* For IE */
+
+
+#roll-the-dice-button {
+  height: 3rem;
+  text-align: center;
+}
+
+/*#roll-the-dice-button > img {
+  height: 100%;
+}*/
+
+#map {
+    height: 100%;
 }
 
 .select-area {
-  height: 4rem;
+  /* height: 4rem; */
   width: 100%;
   padding: 0rem 2rem;
   font-size: 1.5rem;
@@ -26,12 +39,12 @@ body {
   color: #ffffff;
 }
 
-.button-start {
-  height: 3rem;
+.center {
+  margin: 0 auto;
 }
 
-.center {
-	margin: 0 auto;
+.presentation-icon {
+  width: 80%;
 }
 
 .log {
@@ -47,35 +60,48 @@ body {
 }
 
 @media (max-width: 35.5em) {
-.responsive {
-	padding-top: 1em !important;
-}
+  .responsive {
+    padding-top: 1em !important;
+  }
 
-.res-right{
-      float: right;
-}
+  .res-right{
+    float: right;
+  }
 
-.res-left{
-	float: left;
-}
+  .res-left {
+    float: left;
+  }
 
-.no-margin{
-	margin: 0;
-}
+  .no-margin {
+    margin: 0;
+  }
 
-.small{
-	height: 200px;
-	margin: 0 5%;
-}
+  .small {
+    height: 200px;
+    margin: 0 5%;
+  }
 
-.text-right{
+  .text-right {
     text-align: right;
+  }
+
+  .right-offset {
+    margin-left: 16.66%;
+    *margin-left: 16.655%;
+  }
 }
 
-.right-offset
-{
-	margin-left: 16.66%;
-      *margin-left: 16.655%;
-}
+div.leaflet-control-attribution {
+    display: none;
 }
 
+#continue_button {
+    position: absolute;
+    padding: 20px;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #ffffff;
+    z-index: 2000;
+
+}
