@@ -1,10 +1,10 @@
 var target = "#selectA";
 
 var init_map  = function() {
-    $("#continue_button").hide();
+    $("#continue-button").hide();
 
-    $("#continue_button").click(function() {
-        $("#continue_button").hide();
+    $("#continue-button").click(function() {
+        $("#continue-button").hide();
         $("#popup-selectA").hide();
         $("#popup-selectB").hide();
         $.fn.fullpage.moveSectionDown();
@@ -107,8 +107,8 @@ var init_map  = function() {
                     id: "popup-" + properties.AU12,
                     css: {
                         position: "absolute",
-                        bottom: "85px",
-                        left: "50px",
+                        top: "2rem",
+                        left: "2rem",
                         zIndex: 1002,
                         backgroundColor: "white",
                         padding: "8px",
@@ -132,11 +132,12 @@ var init_map  = function() {
                         class: "AUC-"+properties.AU12,
                         css: {
                             position: "absolute",
-                            top: "85px",
+                            bottom: "2rem",
                             left: "100px",
                             zIndex: 1002,
-                            backgroundColor: "white",
-                            padding: "8px",
+                            backgroundColor: "#41BBDC",
+                            padding: "15px",
+                            color: 'white',
                             border: "1px solid #ccc"
                         }
                     });
@@ -155,11 +156,12 @@ var init_map  = function() {
                         class: "AUC-"+properties.AU12,
                         css: {
                             position: "absolute",
-                            top: "85px",
+                            bottom: "2rem",
                             right: "100px",
                             zIndex: 1002,
-                            backgroundColor: "white",
-                            padding: "8px",
+                            backgroundColor: "#41BBDC",
+                            padding: "15px",
+                            color: 'white',
                             border: "1px solid #ccc"
                         }
                     });
@@ -172,7 +174,7 @@ var init_map  = function() {
                     target = "#selectA";
 
                     // show "Roll the dice button"
-                    $("#continue_button").show();
+                    $("#continue-button").show();
                 }
             });
             // Create a mouseout event that undoes the mouseover changes

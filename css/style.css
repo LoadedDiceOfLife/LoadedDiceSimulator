@@ -109,13 +109,14 @@ div.leaflet-control-attribution {
     display: none;
 }
 
-#continue_button {
+#continue-button {
     position: absolute;
     padding: 20px;
     bottom: 20px;
     left: 50%;
     margin-left: -50px;
-    background-color: #ffffff;
+    background-color: #FE915A;
+    color: white;
+    font-size: 2rem;
     z-index: 2000;
-
 }
