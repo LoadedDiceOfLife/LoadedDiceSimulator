@@ -2,35 +2,35 @@
   "events": [{
       "title": "Unemployed",
       "description": " lives in a house where no one has a job.",
-      "image": ""
+      "image": "e-unemployed.png"
     },{
       "title": "Finishes school",
       "description": " leaves high school with no plans of going to uni.",
-      "image": ""
+      "image": "e-finishes-school.png"
     },{
       "title": "Renting",
       "description": " doesn't own the house they live in, and the landlord has bad breath.",
-      "image": ""
+      "image": "e-renting.png"
     },{
       "title": "No internet at home",
       "description": "'s days are long and the nights are longer without Youtube at home.",
-      "image": ""
+      "image": "e-renting.png"
     },{
       "title": "Alone again",
       "description": " gets a divorce, and has to move out of their house.",
-      "image": ""
+      "image": "e-divorced.png"
     },{
       "title": "Sucked into smoking",
       "description": " starts smoking, and doesn't stop.",
-      "image": ""
+      "image": "e-starts-smoking.png"
     },{
       "title": "Scraping by",
       "description": " lives in a house where the income is below x a year.",
-      "image": ""
+      "image": "e-scraping-by.png"
     },{
       "title": "Foot patrol",
       "description": " doesn't have a car, and the buses are always late.",
-      "image": ""
+      "image": "e-no-car.png"
     }]
 
 }
