@@ -1,4 +1,5 @@
 var target = "#selectA";
+
 var init_map  = function() {
     $("#continue_button").hide();
 
@@ -15,7 +16,14 @@ var init_map  = function() {
         $.getJSON(url, function(data){
             // TODO: Do some amazing stuff with the data
             console.log(data);
-        })
+            var count = 1;
+            (data.profiles).forEach(function (profile) {
+                var edu = profile['age-1'].events.education
+                console.log(edu)
+                $('.class-age'+ count).html(edu);
+                count++
+            });
+        });
     });
 
     var map = L.map('map', {
