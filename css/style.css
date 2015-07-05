@@ -13,8 +13,16 @@ body {
 }
 
 #roll-the-dice-button {
-  height: 3rem;
-  text-align: center;
+  width: 10em;
+  margin: 0 auto;
+}
+
+#roll-the-dice-button img {
+  margin: 0 auto;
+}
+
+#roll-the-dice-button img:hover {
+	cursor: pointer;
 }
 
 #map {
@@ -39,10 +47,6 @@ body {
   margin: 0 auto;
 }
 
-.presentation-icon {
-  width: 80%;
-}
-
 .log {
 
 }
@@ -53,6 +57,18 @@ body {
 
 .event-icon {
 	width: 150px;
+}
+
+.mini {
+	width: 180px;
+}
+
+#section4  div{
+	vertical-align: top;
+}
+
+.report-card {
+	min-height: 50px;
 }
 
 @media (max-width: 35.5em) {

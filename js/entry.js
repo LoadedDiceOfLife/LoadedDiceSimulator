@@ -8,26 +8,28 @@ $(function() {
     $('#fullPage').fullpage({
         anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
         sectionsColor: ['#F5F4F0', '#F7DAB6', '#F2A649', '#EF8E59'],
-        scrollOverflow: true
+        scrollOverflow: true,
+        paddingTop: '1em'
     });
 
     $(document).ready(function() {
         init_map();
+        $("#roll-the-dice-button").click(function() {
+            $.fn.fullpage.moveSectionDown();
+        });
     });
 
     $(document).ready(function() {
         $.getJSON('assets/strings/names.json').then(function(json) {
             var names = json.names;
-            $('.presentation-name').each(function(index, element) {
-                $(element).html(_.sample(names));
-            });
+            $('.presentation-name-a').html(_.sample(names));
+            $('.presentation-name-b').html(_.sample(names));
         });
 
         $.getJSON('assets/strings/descriptions.json').then(function(json) {
             var descriptions = json.descriptions;
-            $('.presentation-description').each(function(index, element) {
-                $(element).html(_.sample(descriptions));
-            });
+            $('.presentation-description-a').html(_.sample(descriptions));
+            $('.presentation-description-b').html(_.sample(descriptions));
         });
     });
 });
