@@ -18,9 +18,13 @@ var init_map  = function() {
             console.log(data);
             var count = 1;
             (data.profiles).forEach(function (profile) {
-                var edu = profile['age-1'].events.education
-                console.log(edu)
+                var edu = profile['age-1'].events.education;
+                var house = profile['age-3'].events.houseOwnership;
+                console.log(edu);
+                console.log(house);
+                
                 $('.class-age'+ count).html(edu);
+                $('.class-house'+ count).html('Owns a house: '+ house);
                 count++
             });
         });
