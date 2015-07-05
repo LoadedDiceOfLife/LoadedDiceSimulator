@@ -12,7 +12,7 @@ $(function() {
 
         //Scrolling
         css3: true,
-        scrollingSpeed: 700,
+        scrollingSpeed: 900,
         autoScrolling: true,
         fitToSection: true,
         scrollBar: false,
@@ -20,9 +20,8 @@ $(function() {
         easingcss3: 'ease',
         loopBottom: false,
         loopTop: false,
-        loopHorizontal: true,
         continuousVertical: false,
-        normalScrollElements: '#element1, .element2',
+        normalScrollElements: '.log',
         scrollOverflow: false,
         touchSensitivity: 15,
         normalScrollElementTouchThreshold: 5,
@@ -45,14 +44,6 @@ $(function() {
         //Custom selectors
         sectionSelector: '.section',
         slideSelector: '.slide',
-
-        //events
-        onLeave: function(index, nextIndex, direction) {},
-        afterLoad: function(anchorLink, index) {},
-        afterRender: function() {},
-        afterResize: function() {},
-        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {},
-        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {}
     });
 
 function populateLog(log){
