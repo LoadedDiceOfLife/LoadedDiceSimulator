@@ -6,7 +6,7 @@ require("underscore");
 $(function() {
     $('#fullPage').fullpage({
         anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
-        sectionsColor: ['#4A6FB1', '#939FAA', '#323539'],
+        sectionsColor: ['#F5F4F0', '#F7DAB6', '#F2A649', '#EF8E59'],
         scrollOverflow: true
     });
 

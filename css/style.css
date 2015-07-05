@@ -34,6 +34,18 @@ body {
 	margin: 0 auto;
 }
 
+.log {
+
+}
+
+.left {
+	float: left;
+}
+
+.event-icon {
+	width: 150px;
+}
+
 @media (max-width: 35.5em) {
 .responsive {
 	padding-top: 1em !important;
