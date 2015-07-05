@@ -59,8 +59,10 @@ body {
 	width: 150px;
 }
 
-.mini {
+.mini-image {
 	width: 180px;
+	margin: 0;
+	float: left;
 }
 
 #section4  div{
