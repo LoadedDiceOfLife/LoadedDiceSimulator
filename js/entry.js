@@ -82,10 +82,18 @@ function populateLog(log){
 
 
     $(document).ready(function() {
-        $.getJSON('assets/strings/names.json').then(function(names) {
-            console.log(_.sample(names));
+        $.getJSON('assets/strings/names.json').then(function(json) {
+            var names = json.names;
+            $('.presentation-name').each(function(index, element) {
+                $(element).html(_.sample(names));
+            });
         });
-        // $('.presentation-name').html = ''
-        // $('.presentation-description').html = ''
+
+        $.getJSON('assets/strings/descriptions.json').then(function(json) {
+            var descriptions = json.descriptions;
+            $('.presentation-description').each(function(index, element) {
+                $(element).html(_.sample(descriptions));
+            });
+        });
     });
 });
