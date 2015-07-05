@@ -1,5 +1,6 @@
 require("../css/style.css");
-require("../css/pure-offset.css")
+require("../css/pure-offset.css");
+require("./map.js");
 
 $(function() {
     $('#fullPage').fullpage({
@@ -54,22 +55,6 @@ $(function() {
     });
 
     $(document).ready(function() {
-        // TODO: implement the real GET function to retrieve areas
-        var response = {
-            "areas": [{
-                "code":  1,
-                "name": "Wellington"
-            }, {
-                "code":  2,
-                "name": "Whanganui"
-            }, {
-                "code":  3,
-                "name": "Hamilton"
-            }, ]
-        };
-        response.areas.forEach(function(area) {
-            console.log(area)
-            $(".select-area").append('<option value=' + area.code + '>' + area.name + '</option>');
-        });
+        init_map();
     });
 });
